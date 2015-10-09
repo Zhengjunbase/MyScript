@@ -1,5 +1,7 @@
 #!/bin/bash
 divideLine="#-------------------------divideLine------------------------"
+
+git pull
 updateShellConfFile(){
 
 	local backupFile=$1".back"

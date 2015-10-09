@@ -1,4 +1,18 @@
 alias cz="cat ~/.zshrc";
+alias cb="cat ~/.bashrc";
+alias e="exit";
+alias sb="source ~/.bashrc";
+alias sz="source ~/.zshrc";
+alias v="vim";
+s(){
+	ssh zhengjun.du@$1;
+}
+g2(){egrep -r -i "`echo $@`" .}
+
+updateGit(){
+	/bin/bash $HOME/MyScript/getFromGit.sh;
+}
+
 c(){
 	if [[ -z $1 || -z $2 ]]; then
 		echo "usage : c ord_string new_string ... " && return 1;
