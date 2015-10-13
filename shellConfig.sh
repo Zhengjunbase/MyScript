@@ -4,6 +4,8 @@ alias e="exit";
 alias sb="source ~/.bashrc";
 alias sz="source ~/.zshrc";
 alias v="vim";
+alias hh='chflags hidden ~/Desktop/*'
+alias h="history"
 s(){
 	ssh zhengjun.du@$1;
 }
