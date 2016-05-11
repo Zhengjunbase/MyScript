@@ -29,8 +29,6 @@ ZSH_THEME="robbyrussell"
 
 bindkey -v
 
-### qunar alias ###
-alias t="ssh l-rtools1.ops.cn0.qunar.com"
 
 
 ### script alias ###
